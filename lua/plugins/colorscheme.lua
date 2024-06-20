@@ -1,15 +1,13 @@
 return {
-
   -- Configure LazyVim to load your chosen colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa-dragon",
+      colorscheme = "kanagawa-paper",
     },
   },
 
   -- add colorschemes
-  --
   { "rebelot/kanagawa.nvim" },
   { "sho-87/kanagawa-paper.nvim" },
   { "ellisonleao/gruvbox.nvim" },

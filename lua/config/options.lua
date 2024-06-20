@@ -8,6 +8,7 @@ local opt = vim.opt
 opt.clipboard = "unnamedplus" -- sets vim clipboard to system clipboard
 opt.helpheight = 5
 
+opt.scrolloff = 999
 opt.relativenumber = true
 
 -- opt.number = true
@@ -18,7 +19,6 @@ opt.relativenumber = true
 -- opt.shiftwidth = 4 -- tabs are 4 spaces
 -- opt.tabstop = 4
 -- opt.expandtab = true
--- opt.scrolloff = 999
 -- opt.virtualedit = "block" -- visual block now treats line endings as cells
 -- opt.inccommand = "nosplit" -- split highlight
 -- opt.ignorecase = true
